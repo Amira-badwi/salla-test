@@ -806,6 +806,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "89cfc03f-a71e-484f-ad4e-dc001b192557",
+            "title": "about",
+            "icon": "sicon-store",
+            "path": "about",
+            "fields": []
         }
     ],
     "support_url": null,
