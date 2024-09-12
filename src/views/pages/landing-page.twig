@@ -22,12 +22,12 @@
     {% if not landing %}
         <div class="landing-page notfound">
             <header>
-                <div class="header-content container">
+                <div class="container header-content">
                 <a href="{{ store.url }}" class="header-content-logo" aria-label="{{store.name}} logo">
 					<img src="{{ store.logo }}" width="75" height="75" alt="logo" class="logo"></a>
                     <div class="header-content-inner">
                         <h1> {{trans('common.errors.404')}}</h1>
-                        <div class="text-center mt-6">
+                        <div class="mt-6 text-center">
                             <salla-button href="{{ link('/') }}" color="primary" class="btn--rounded-full !text-white">
                                 {{trans('common.elements.back_home')}}
                             </salla-button>
@@ -39,13 +39,13 @@
     {% elseif landing.is_expired %}
         <div class="landing-page expired">
             <header>
-                <div class="header-content container">
+                <div class="container header-content">
                 <a href="{{ store.url }}" aria-label="{{store.name}} logo" class="header-content-logo">
 					<img src="{{ store.logo }}" width="75" height="75" alt="logo" class="logo"></a>
                     <div class="header-content-inner">
                         <h1> {{trans('pages.offer.offer_finished')}}</h1>
                         <p>{{ trans('pages.offer.offer_expired_message') }}</p>
-                        <div class="text-center mt-6">
+                        <div class="mt-6 text-center">
                             <salla-button href="{{ link('/') }}" color="primary" class="btn--rounded-full !text-white">
                                 {{trans('common.elements.back_home')}}
                             </salla-button>
@@ -55,9 +55,9 @@
             </header>
         </div>
     {% else %}
-        <div class="landing-page pb-10">
+        <div class="pb-10 landing-page">
             <header>
-                <div class="header-content container">
+                <div class="container header-content">
                 <a href="{{ store.url }}" aria-label="{{store.name}} logo" class="header-content-logo">
 					<img src="{{ store.logo }}" width="75" height="75" alt="logo" class="logo"></a>
                     <div class="header-content-inner">
@@ -109,7 +109,7 @@
             {% endif %}
 
             {% if landing.testimonials_type %}
-                <section class="overflow-hidden bg-gray-50 mt-10">
+                <section class="mt-10 overflow-hidden bg-gray-50">
                     <div class="container">
                         {% component 'home.testimonials' with{type:landing.testimonials_type} %}
                     </div>

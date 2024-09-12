@@ -132,6 +132,7 @@ module.exports = {
     },
     corePlugins: {
       outline: false,
+      
     },
     plugins: [
       require('@salla.sa/twilight-tailwind-theme'),
