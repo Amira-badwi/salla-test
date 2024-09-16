@@ -961,10 +961,10 @@
                             "required": true
                         },
                         {
-                            "id": "category_item.category_item_img",
+                            "id": "category_item.category_item_title",
                             "type": "string",
                             "format": "text",
-                            "label": "category_item_img",
+                            "label": "category_item_title",
                             "description": null,
                             "labelHTML": null,
                             "placeholder": "Placeholder text ..",
