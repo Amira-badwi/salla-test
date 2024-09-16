@@ -886,6 +886,13 @@
                     "maximum": 50
                 }
             ]
+        },
+        {
+            "key": "5a815ec6-4cf6-40e4-b9e7-be29671dc2a8",
+            "title": "categories",
+            "icon": "sicon-store",
+            "path": "home.categories",
+            "fields": []
         }
     ],
     "support_url": null,
