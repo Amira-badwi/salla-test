@@ -863,6 +863,13 @@
                     "maxLength": 5
                 }
             ]
+        },
+        {
+            "key": "e79ebbf2-b438-46a3-97cc-2783a4ad4868",
+            "title": "slider",
+            "icon": "sicon-store",
+            "path": "home.slider",
+            "fields": []
         }
     ],
     "support_url": null,
