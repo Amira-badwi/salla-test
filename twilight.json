@@ -813,6 +813,13 @@
             "icon": "sicon-store",
             "path": "about",
             "fields": []
+        },
+        {
+            "key": "996de94c-810c-4732-b0c4-607e0bbb511f",
+            "title": "banner",
+            "icon": "sicon-store",
+            "path": "home.banner",
+            "fields": []
         }
     ],
     "support_url": null,
