@@ -972,13 +972,13 @@
                             "value": null,
                             "multilanguage": true,
                             "required": true,
-                            "minLength": 6,
+                            "minLength": "6",
                             "maxLength": 30
                         }
                     ],
                     "value": [],
                     "minLength": 1,
-                    "maxLength": 5
+                    "maxLength": "8"
                 }
             ]
         }
