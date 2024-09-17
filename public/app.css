@@ -1746,7 +1746,7 @@ input[type=radio].sr-only:checked ~ div.s-loyalty-prize-item-check {
 .s-loyalty-slider{margin-bottom:0.625rem;display:block}
 .s-loyalty-slider .swiper-wrapper{height:auto !important}
 .s-loyalty-container{padding:0.625rem}
-.s-maintenance-alert-wrapper{position:relative;display:flex;min-height:40px;width:100%;flex-direction:row;align-items:center;justify-content:center;--tw-bg-opacity:1;background-color:rgba(26, 38, 61, 1);background-color:rgba(26, 38, 61, var(--tw-bg-opacity));padding-left:0.5rem;padding-right:0.5rem;padding-top:0.25rem;padding-bottom:0.25rem;--tw-text-opacity:1;color:rgba(255, 255, 255, 1);color:rgba(255, 255, 255, var(--tw-text-opacity))}
+.s-maintenance-alert-wrapper{  position:relative;display:none;min-height:40px;width:100%;flex-direction:row;align-items:center;justify-content:center;--tw-bg-opacity:1;background-color:rgba(26, 38, 61, 1);background-color:rgba(26, 38, 61, var(--tw-bg-opacity));padding-left:0.5rem;padding-right:0.5rem;padding-top:0.25rem;padding-bottom:0.25rem;--tw-text-opacity:1;color:rgba(255, 255, 255, 1);color:rgba(255, 255, 255, var(--tw-text-opacity))}
 @media (min-width: 640px){
 .s-maintenance-alert-wrapper{padding-left:2rem;padding-right:2rem}}
 .s-maintenance-alert-wrapper a{transition:0.35s cubic-bezier(0.2, 1, 0.3, 1)}
@@ -5241,7 +5241,7 @@ input[type=radio].sr-only:checked ~ div.s-block--slider-with-bg .slider-bg:befor
 .slide--cat-entry img {
   border-radius: 50%;
   aspect-ratio: 1/1;
-  max-width: 110px;
+  max-width: 120px;
 }
 .slide--cat-entry i{margin-bottom:1rem;display:inline-block;font-size:33px;color:#414042;color:var(--color-primary)}
 .slide--cat-entry h2{font-size:0.875rem;line-height:1.25rem;font-weight:700}
