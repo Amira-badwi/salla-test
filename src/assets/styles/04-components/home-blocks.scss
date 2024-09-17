@@ -299,8 +299,12 @@
   Main Links Block
 */
 .slide--cat-entry {
-  @apply bg-white rounded-md h-36 p-3 text-center flex flex-col items-center justify-center transition duration-500 hover:shadow-default hover:text-gray-500 border border-gray-100;
-
+  @apply  rounded-md h-36 p-3 text-center flex flex-col items-center justify-center transition duration-500 hover:shadow-default hover:text-gray-500  ;
+img{
+  border-radius: 50% ;
+ aspect-ratio: 1/1 ;
+ max-width: 110px ;
+}
   i {
     @apply inline-block text-primary text-icon-lg mb-4;
   }
