@@ -978,7 +978,7 @@
                     ],
                     "value": [],
                     "minLength": 1,
-                    "maxLength": "8"
+                    "maxLength": "9"
                 }
             ]
         }
