@@ -1,6 +1,13 @@
 
 /* Top Nav */
 .top-navbar {
+  .container-fluid {
+    width: 100%;
+  }
+  .navbar-brand img , [type="search"] {
+    border-radius: 4px !important;
+  }
+  padding: 30px ;
   @apply flex py-2 min-h-[48px];
    background-color: #005592 !important;
   @screen lg {
@@ -153,9 +160,9 @@ color: white !important;
 // Mainnav cart icon
 .header-btn{
   @apply border-none outline-none transition-opacity hover:opacity-80;
-
+  
   &__icon{
-    @apply text-xl w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-700;
+    @apply text-xl w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-white;
     &.icon{
       @apply mr-[9px] rtl:ml-[9px] rtl:mr-[unset];
     }
@@ -166,6 +173,7 @@ color: white !important;
 
 salla-user-menu{
   @apply shrink-0;
+ 
 }
 
 // cart summary

@@ -1,8 +1,9 @@
-
-<salla-slider id="thumbs" show-controls="true" type="thumbs">
+<salla-slider id="thumbs" show-controls="false" type="thumbs">
     <div slot="items">
         {% for ban in component.banner %}
             <img src="{{ban.image}}" alt="">
         {% endfor %}
     </div>
-</salla-slider>   
+</salla-slider>
+
+

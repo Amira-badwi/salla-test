@@ -17,8 +17,12 @@ salla-slider{
       @apply absolute rtl:right-4 ltr:left-4 bottom-4 z-[2] sm:hidden;
     }
 
-    .s-slider-block__title-nav{
+    .s-slider-block__title-nav{ 
+      
       @apply hidden sm:flex;
+    .s-slider-next {
+      
+    }
     }
   }
 
