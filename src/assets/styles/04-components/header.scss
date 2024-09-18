@@ -20,7 +20,7 @@ color: white !important;
   }
 
   .s-search-input{
-    @apply bg-gray-200/50 hover:bg-gray-200/70 border-none;
+    @apply  hover:bg-gray-200/70 border-none;
   }
 
   @media (max-width: 640px) {

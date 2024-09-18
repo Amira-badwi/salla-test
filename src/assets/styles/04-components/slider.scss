@@ -1,6 +1,9 @@
 salla-slider{ 
   @apply block;
-  
+  padding:  20px 40px ;
+  img {
+    border-radius: 8px;
+  }
   &.details-slider{
     .s-slider-container{ 
       @apply bg-white border-[1px] rounded-md;
