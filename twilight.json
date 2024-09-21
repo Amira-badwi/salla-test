@@ -981,6 +981,13 @@
                     "maxLength": "9"
                 }
             ]
+        },
+        {
+            "key": "5e49a50a-f2d7-4277-a9b0-3c58f1681e00",
+            "title": "footer1",
+            "icon": "sicon-store",
+            "path": "footer.footer1",
+            "fields": []
         }
     ],
     "support_url": null,
