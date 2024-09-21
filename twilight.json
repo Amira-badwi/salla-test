@@ -974,6 +974,25 @@
                             "required": true,
                             "minLength": "6",
                             "maxLength": 30
+<<<<<<< HEAD
+=======
+                        },
+                        {
+                            "id": "category_item.dropdown_list",
+                            "type": "items",
+                            "format": "dropdown-list",
+                            "label": "Dropdown List",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-keyboard_arrow_down",
+                            "selected": [],
+                            "options": [],
+                            "source": "Categories",
+                            "multichoice": true,
+                            "searchable": true,
+                            "required": false,
+                            "value": []
+>>>>>>> 9ab060e5144d63e0c103eb2abda0c3e48ba5ef58
                         }
                     ],
                     "value": [],
