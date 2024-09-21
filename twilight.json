@@ -974,11 +974,32 @@
                             "required": true,
                             "minLength": "6",
                             "maxLength": 30
-<<<<<<< HEAD
-=======
-                        },
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": "9"
+                }
+            ]
+        },
+        {
+            "key": "5e49a50a-f2d7-4277-a9b0-3c58f1681e00",
+            "title": "footer1",
+            "icon": "sicon-store",
+            "path": "footer.footer1",
+            "fields": [
+                {
+                    "id": "collectionfooter",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collectionfooter",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
                         {
-                            "id": "category_item.dropdown_list",
+                            "id": "collectionfooter.dropdown_list",
                             "type": "items",
                             "format": "dropdown-list",
                             "label": "Dropdown List",
@@ -992,16 +1013,14 @@
                             "searchable": true,
                             "required": false,
                             "value": []
->>>>>>> 9ab060e5144d63e0c103eb2abda0c3e48ba5ef58
                         }
                     ],
                     "value": [],
                     "minLength": 1,
-                    "maxLength": "9"
+                    "maxLength": 5
                 }
             ]
         }
-       
     ],
     "support_url": null,
     "description": {
