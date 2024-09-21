@@ -981,46 +981,8 @@
                     "maxLength": "9"
                 }
             ]
-        },
-        {
-            "key": "5e49a50a-f2d7-4277-a9b0-3c58f1681e00",
-            "title": "footer1",
-            "icon": "sicon-store",
-            "path": "footer.footer1",
-            "fields": [
-                {
-                    "id": "collectionfooter",
-                    "type": "collection",
-                    "format": "collection",
-                    "label": "Collectionfooter",
-                    "description": null,
-                    "labelHTML": null,
-                    "item_label": null,
-                    "icon": "sicon-list-add",
-                    "fields": [
-                        {
-                            "id": "collectionfooter.dropdown_list",
-                            "type": "items",
-                            "format": "dropdown-list",
-                            "label": "Dropdown List",
-                            "description": null,
-                            "labelHTML": null,
-                            "icon": "sicon-keyboard_arrow_down",
-                            "selected": [],
-                            "options": [],
-                            "source": "Categories",
-                            "multichoice": true,
-                            "searchable": true,
-                            "required": false,
-                            "value": []
-                        }
-                    ],
-                    "value": [],
-                    "minLength": 1,
-                    "maxLength": 5
-                }
-            ]
         }
+       
     ],
     "support_url": null,
     "description": {

@@ -13,7 +13,7 @@
   }
 
   &__inner{
-    @apply bg-dark py-8 lg:py-16 border-b border-dashed border-b-white/10;
+    @apply bg-dark py-8 lg:py-16 border-b  border-b-white/10;
   }  
 
   h3{
@@ -37,7 +37,6 @@
     @apply bg-gray-50 text-white;
 
     .store-footer__inner {
-      @apply border-b-gray-200;
       background-color: #005592 !important;
 
     }
@@ -53,6 +52,10 @@
 }
 
 
-.copyright-text p{
-  @apply text-white;
+.store-footer .copyright-text p{
+  color: #005592;
+  a {
+    color: #005592 !important;
+     font-weight: 700;
+  }
 }

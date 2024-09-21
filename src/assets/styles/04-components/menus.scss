@@ -3,14 +3,15 @@
 .main-menu > li > a[href*="offer"]{
   @apply text-red-800
 }
-.mobile-menu  {
-  li {
-    span {
-      color: white !important;
+
+@media only screen and (min-width: 1024px) {
+  .mobile-menu  {
+    li {
+      span {
+        color: white !important;
+      }
     }
   }
-}
-@media only screen and (min-width: 1024px) {
   .main-menu {
     @apply hidden lg:flex flex-wrap items-center mx-6 pt-8 pb-0;
 
@@ -113,8 +114,14 @@
     border: none;
   }
 }
+@media only screen and (max-width: 1024px) {
+  .mobile-menu li span {
+    color: white !important;
+  }
+}
 // Mobile Slide Menu
 @media only screen and (max-width: 1024px) {
+
   .filters-opened{
     .close-filters{
       display: block !important;
