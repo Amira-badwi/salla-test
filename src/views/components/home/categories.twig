@@ -4,9 +4,10 @@
             <div slot="items"> 
                 {% for category in component.category_item %}
                     <div class="swiper-slider slide--one-sixth">
-                        <a href="{{category.Dropdown_List}}" class="slide--cat-entry" data-emergence="hidden">
+                        <a href="" class="slide--cat-entry" data-emergence="hidden">
                             <img class="bg-cover" src="{{category.category_image}}" />
                             <h4>{{ category.category_item_title }}</h4>
+                            <h4>{{ category.dropdown_list.value }}</h4>
                         </a> 
                     </div>
                 {% endfor %}
