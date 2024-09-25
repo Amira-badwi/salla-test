@@ -104,4 +104,51 @@
 .footer-is-light .store-footer {
     background-color: #ccdde9 !important;
 }
+salla-slider .swiper-pagination-bullet {
+  width: 13px !important;
+  height: 13px !important;
+  border-radius: 50% !important;
+  background: #fff !important;
+  opacity: 0.7 !important;
+}
+salla-slider .swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background-color: #7C7C7A !important;
+  scale: 1.2 !important;
+}
+.s-slider-v-centered .s-slider-block__title-nav button {
+  background-color: #D0CCCC !important;
+  opacity: 0.7;
+  width: 62px;
+  height: 62px;
+  display: none !important;
+}
+salla-slider .swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background-color: #7C7C7A !important;
+  scale: 1.2 !important;
+}
+.s-slider-v-centered .s-slider-block__title-nav button {
+  background-color: #D0CCCC !important;
+  opacity: 0.7 !important;
+  width: 62px !important;
+  height: 62px !important;
+}
+.s-product-card-vertical .s-product-card-wishlist-btn {
+  top: 88% !important;
+}
+salla-add-product-button[width=wide] {
+  position: absolute;
+  top: -50px;
+  width: fit-content;
   
+  .s-button-text span {
+    display: none !important;
+  }
+  button {
+    border-radius: 50%;
+    height: 50px !important;
+    width: 50px !important;
+    // background-color: white;
+  }
+}

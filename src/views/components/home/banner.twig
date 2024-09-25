@@ -3,10 +3,58 @@
 
 {% endfor %} #}
 
-<salla-slider id="thumbs" show-controls="true" type="thumbs">
+{# <salla-slider id="thumbs" show-controls="true" type="thumbs">
     <div slot="items">
         {% for ban in component.banner %}
             <img src="{{ban.image}}" alt="">
         {% endfor %}
     </div>
-</salla-slider>   
+</salla-slider>    #}
+
+
+
+<section class="mainBanner s-block--default-home-slider s--block-full-bg" style="font-family: 'Rubik', sans-serif!important; padding:15px 50px;"></section>
+    <salla-slider auto-play pagination id="thumbs" show-controls="true" type="thumbs">
+        <div slot="items">
+            {% for banner in component.banner  %}
+            <div class="bg-no-repeat bg-cover bg-center swiper-slide swiper-lazy-wrap" style="background-image: url('{{ banner.image }}'); height:480px; width: 100%; border-radius:10px;">
+                <div class="px-3 flex text-center items-center justify-center sm:justify-start ltr:sm:justify-end py-16 lg:py-20 home-slider__content relative h-full" style="position:relative;">
+                    <div style="display:flex;justify-content:space-between;width:100%!important;">
+                    <button class="s-slider-prev button relative bg-white bg-opacity-50 rounded-full p-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                        </svg>
+                      </button>
+                      <button class="s-slider-next button relative bg-white bg-opacity-50 rounded-full p-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                            <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                          </svg>
+                      </button>
+                    </div>
+                    <div class="text-black w-full" style="position:absolute;margin-right:-50px;">
+                        <h1 class="" data-swiper-parallax="-300" style=""> {{ banner.description | raw}}</h1>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </salla-slider>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
